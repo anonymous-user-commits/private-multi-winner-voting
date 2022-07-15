@@ -1,0 +1,59 @@
+{
+  "data_path": "/home/{user}/data/CheXpert-v1.0-small/",
+  "train_csv": "train.csv",
+  "dev_csv": "valid.csv",
+  "width": 512,
+  "height": 512,
+  "long_side": 512,
+  "fix_ratio": true,
+  "pixel_mean": 128.0,
+  "pixel_std": 64.0,
+  "use_pixel_std": true,
+  "use_equalizeHist": true,
+  "use_transforms_type": "Aug",
+  "gaussian_blur": 3,
+  "border_pad": "pixel_mean",
+  "num_classes": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "batch_weight": true,
+  "enhance_index": [
+    2,
+    6
+  ],
+  "enhance_times": 1,
+  "pos_weight": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "weight_beta": -1,
+  "train_steps": 0,
+  "classification_type": "binary",
+  "pretrained": true,
+  "log_every": 20,
+  "dev_every": 100,
+  "test_every": 5,
+  "norm_type": "BatchNorm",
+  "global_pool": "AVG_MAX",
+  "fc_bn": true,
+  "attention_map": "FPA",
+  "lse_gamma": 0.5,
+  "fc_drop": 0,
+  "criterion": "BCE",
+  "best_target": "auc",
+  "save_top_k": 3,
+  "save_index": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

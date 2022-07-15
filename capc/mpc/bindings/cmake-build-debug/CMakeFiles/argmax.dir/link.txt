@@ -1,0 +1,1 @@
+/usr/bin/c++    -pthread -Wall -funroll-loops -march=native -maes -mrdseed -std=c++11 -O0 -ggdb -g  -rdynamic CMakeFiles/argmax.dir/argmax_cython.cpp.o  -o bin/argmax -Wl,-rpath,/usr/local/lib /usr/local/lib/libemp-tool.so -lssl -lcrypto 

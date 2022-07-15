@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8.9)
+project (argmax_cython_project)
+set(CMAKE_CXX_STANDARD 11)
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+add_library(argmax_cython_project SHARED argmax_cython.hpp argmax_cython.cpp)

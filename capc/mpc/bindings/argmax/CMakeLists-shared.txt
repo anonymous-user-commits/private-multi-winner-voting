@@ -1,0 +1,37 @@
+cmake_minimum_required(VERSION 2.8.11)
+project(argmax_cpp DESCRIPTION "compute mpc argmax")
+set(NAME "argmax_cpp")
+set(ENABLE_FLOAT ON)
+
+add_library(argmax_cpp SHARED
+    argmax_cython.cpp
+    argmax_cython.hpp
+)
+
+set_target_properties(argmax_cpp PROPERTIES PUBLIC_HEADER argmax_cython.hpp)
+
+include(GNUInstallDirs)
+
+find_path(CMAKE_FOLDER NAMES cmake/emp-tool-config.cmake)
+include(${CMAKE_FOLDER}/cmake/common.cmake)
+include(${CMAKE_FOLDER}/cmake/enable_rdseed.cmake)
+include(${CMAKE_FOLDER}/cmake/enable_float.cmake)
+
+find_package(emp-sh2pc REQUIRED)
+find_package(emp-tool REQUIRED)
+
+target_link_libraries(argmax_cpp ${EMP-SH2PC_LIBRARIES})
+
+configure_file(argmax_cpp.pc.in mylib.pc @ONLY)
+target_include_directories(argmax_cpp PRIVATE .)
+install(TARGETS argmax_cpp
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
+install(FILES ${CMAKE_BINARY_DIR}/argmax_cpp.pc
+    DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/pkgconfig)
+
+
+
+
+
+

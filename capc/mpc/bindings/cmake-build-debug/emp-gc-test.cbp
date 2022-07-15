@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="emp-gc-test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\usr\;CMake Files\..\..\usr\local\;CMake Files\..\..\usr\local\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.OTWDSJ2YnF/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.OTWDSJ2YnF/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="argmax">
+				<Option output="/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/bin/argmax" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEMP_CIRCUIT_PATH=/usr/local/include/emp-tool/circuits/files/"/>
+					<Add directory="/tmp/tmp.OTWDSJ2YnF"/>
+					<Add directory="/usr/local/include/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 argmax"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="argmax/fast">
+				<Option output="/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/bin/argmax" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEMP_CIRCUIT_PATH=/usr/local/include/emp-tool/circuits/files/"/>
+					<Add directory="/tmp/tmp.OTWDSJ2YnF"/>
+					<Add directory="/usr/local/include/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 argmax/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.OTWDSJ2YnF/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/tmp/tmp.OTWDSJ2YnF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.OTWDSJ2YnF/argmax_cython.cpp">
+			<Option target="argmax"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.OTWDSJ2YnF/argmax_cython.hpp">
+			<Option target="argmax"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.OTWDSJ2YnF/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.OTWDSJ2YnF/../../usr/local/cmake/common.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.OTWDSJ2YnF/../../usr/local/cmake/emp-ot-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.OTWDSJ2YnF/../../usr/local/cmake/emp-sh2pc-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.OTWDSJ2YnF/../../usr/local/cmake/emp-tool-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.OTWDSJ2YnF/../../usr/local/cmake/enable_float.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.OTWDSJ2YnF/../../usr/local/cmake/enable_rdseed.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
